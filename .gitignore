@@ -1,0 +1,59 @@
+# Venv
+boostcamp/
+
+# Projct_Details
+Project_Details.md
+
+# data
+data/*
+data/external/*
+data/interim/*
+data/processed/*
+data/raw/*
+!data/
+!data/external/
+!data/interim/
+!data/processed/
+!data/raw/
+
+# output
+output/*
+output/bert_model_comparison/*
+!output/
+!output/bert_model_comparison/
+
+# notebooks
+src/notebooks/baseline_code.ipynb
+
+# WandB
+wandb/
+
+# model
+model/*
+model/kykim_bert_focal_loss/*
+!model/
+!model/kykim_bert_focal_loss/
+
+# results
+src/notebooks/original_vs_augment/results/
+src/notebooks/original_vs_augment/misclassified_samples/
+src/notebooks/text_preprocessing/normalization_comparison_augment.txt
+src/notebooks/text_preprocessing/normalization_comparison_original.txt
+src/notebooks/text_preprocessing/preprocessing_comparison_augment.txt
+src/notebooks/text_preprocessing/preprocessing_comparison_original.txt
+
+# focal_loss_pipeline
+src/focal_loss_pipeline/training.log
+src/focal_loss_pipeline/__pycache__/
+src/focal_loss_pipeline/focal_loss_results/
+src/focal_loss_pipeline/logs/
+src/focal_loss_pipeline/model/
+src/focal_loss_pipeline/README.md
+src/focal_loss_pipeline/improved_focal_loss_results/
+
+# focal_loss 
+src/notebooks/focal_loss/focal_loss_results/
+
+# original_vs_augment
+src/notebooks/original_vs_augment/results/
+src/notebooks/original_vs_augment/retraining_results/
